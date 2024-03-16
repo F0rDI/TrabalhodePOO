@@ -52,7 +52,6 @@ public class janelaTabe extends Janela{
                 int numAbas = tabbedPane.getTabCount(); 
 
                 for (int i = 0; i < 10; i++) {
-                    panel2.add(new JLabel("Aba 2" ));
                     tabbedPane.addTab("Aba " + (numAbas + 1) , panel2);
                 }
                 
